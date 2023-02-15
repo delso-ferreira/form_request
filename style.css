@@ -83,6 +83,71 @@ main {
     background-color: #d9dcdf;
 }
 
+#label-rate{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#comment{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+textarea{
+    margin-left: 5px;
+}
+
+#rate1{
+    margin-left: 20px;
+}
+
+input[type="radio"]{
+  margin: 2px;
+}
+
+#agree-check {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#agreement {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#secao-de-conteudos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+#secao-familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: black;
+}
+
+#conteudos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#conteudos span {
+  width: 33%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 footer {
     background-color: rgb(19, 68, 59);
     color: lightgray;
