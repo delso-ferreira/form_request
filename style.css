@@ -9,7 +9,10 @@
     background-color: #32a791;
     justify-content: space-around;
     align-items: center;
+    height: 8vh;
 }
+
+.header
 
 footer {
         background-color: rgb(19, 68, 59);
