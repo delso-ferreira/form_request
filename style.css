@@ -1,0 +1,11 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgb(19, 68, 59);
+  color:lightgray;
+  text-align: center;
+}
