@@ -11,19 +11,31 @@
     align-items: center;
     padding: 10px;
     color: white;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #header img {
     width: 50px;
 }
 
+.trybewarts-login {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#header button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(103, 67, 136);
+    color: #fff;
+}
 
 #evaluation-form{
     display: flex;
     flex-direction: column;
     width: 675px;
-    
     
 }
 
