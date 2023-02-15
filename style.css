@@ -1,109 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 .header {
-    display: flex;
-    background-color: #32a791;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 800;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 .header img {
-    width: 50px;
+  width: 50px;
 }
 
 .trybewarts-login {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.trybewarts-login-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 button {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(103, 67, 136);
-    color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(103, 67, 136);
+  color: white;
 }
 
 #evaluation-form {
-    display: flex;
-    flex-direction: column;
-    width: 675px;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 
 }
 
 #evaluation-form h1 {
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
 }
 
-.formulario{
-    display: flex;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    flex-wrap: wrap;
+.formulario {
+  display: flex;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  flex-wrap: wrap;
 }
 
-.formulario input, .formulario div {
-    width: 40%;
-    border-radius: 10px;
-    border: none;
-    margin: 5px;
+.formulario input , .formulario div {
+  width: 40%;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
 }
 
-.formulario input{
-    padding: 14px;
+.formulario input {
+  padding: 14px;
 }
 
 #house {
-    width: 85%;
-    height: 100%;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    padding: 10px;
-} 
+  width: 85%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px;
+}
 
 main {
-    display: flex;
-    background-color: #d9dcdf;
+  display: flex;
+  background-color: rgb(217, 220, 223);
+  justify-content: space-around;
 }
 
-#label-rate{
-    display: flex;
-    margin-left: 5px;
-    margin-top: 10px;
+#label-rate {
+  display: flex;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
-#comment{
-    margin-left: 5px;
-    margin-top: 10px;
+.textarea {
+  margin-left: 5px;
 }
 
-textarea{
-    margin-left: 5px;
+#rate1 {
+  margin-left: 20px;
 }
 
-#rate1{
-    margin-left: 20px;
+.label-rate {
+  letter-spacing: 3px;
 }
 
-input[type="radio"]{
-  margin: 2px;
+.label-rate input {
+  margin: 10px;
 }
 
 #agree-check {
@@ -149,7 +154,7 @@ input[type="radio"]{
 }
 
 footer {
-    background-color: rgb(19, 68, 59);
-    color: lightgray;
-    text-align: center;
+  background-color: rgb(19, 68, 59);
+  color: lightgray;
+  text-align: center;
 }

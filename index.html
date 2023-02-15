@@ -12,12 +12,12 @@
 <body>
     <header class="header">
         <img src="images/trybewarts-header-logo.svg" alt="logo-trybe" class="trybewarts-header-logo">
-        <h1 id="trybewarts-header-tittle">Trybewarts</h1>
-        <form action="" method="get">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" method="get" class="trybewarts-login">
             <div class="forms">
-                <input type="text" name="email" class="trybewarts-login" placeholder="Email" required>
-                <input type="password" name="senha" class="trybewarts-login" placeholder="Senha" required>
-                <button type="submit">Enviar</button>
+                <input type="text" name="email" class="trybewarts-login-input" placeholder="Email" required>
+                <input type="password" name="password" class="trybewarts-login-input" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
             </div>
         </form>
     </header>
@@ -26,12 +26,12 @@
             <h1 id="tittle-formulario">Formulário de Avaliação</h1>
             <div class="formulario">
                 <input type="text" name="nome" id="input-name" placeholder="Nome" required>
-                <input type="text" name="sobrenome" id="input-lastnome" placeholder="Sobrenome" required>
+                <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome" required>
                 <input type="text" name="email" id="input-email" placeholder="Email" required>
                 <div id="label-house">
                     <label for="casa">Casa:
                         <select name="casa" id="house">
-                            <option value="Gitnório" id="gitnoria-house">Gitnório</option>
+                            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
                             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
                             <option value="Corvinode" id="corvinode-house">Corvinode</option>
                             <option value="Pytherina" id="pytherina-house">Pytherina</option>
@@ -130,8 +130,8 @@
                         10
                     </label>
                 </label>
-                <label id="comment">Deixe seu comentário:</label>
-                <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
+                <label id="comment" class="textarea">Deixe seu comentário:</label>
+                <textarea name="" cols="30" rows="10" maxlength="500"></textarea>
                 <div id="agree-check">
                     <label id="label-infos">Você concorda com o uso das informações acima?</label>
                     <input type="checkbox" name="agree" id="agreement">
