@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trybewarts</title>
     <link rel="stylesheet" href="style.css">
+    <title>Trybewarts</title>
 </head>
-<body>
+<body>    
+    <header class="header">
+        <img src="images/trybewarts-header-logo.svg" alt="logo-trybe" >
+        <h1 id="trybewarts-header-tittle">Trybewarts</h1>
+        <form action="" method="get">
+            <div class="forms">
+                <input type="text" name="email" class="trybewarts-login" placeholder="Email" required>
+                <input type="password" name="senha" class="trybewarts-login" placeholder="Senha" required>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </header>
+    <main>
+        <form action="" id="evaluation-form">
+            <section id="secao-de-conteudos">
+                <section id="secao-familia">
+                    <label for="" id="label-family">Qual sua família?</label>
+                    <span>
+                        <input type="radio" name="family" value="Frontend">
+                        <label for="family" id="Frontend">Familia Frontend</label>  
+                    </span>
+                    <span>
+                        <input type="radio" name="family" value="Backend">
+                        <label for="family" id="Backend">Familia Backend</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="family" value="FullStack">
+                        <label for="family" id="FullStack">Familia FullStack</label>
+                    </span>
+                </section>
+                <section id="secao-conteudos">
+                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div id="conteudos">
+                        <span>
+                            <input type="checkbox" class="subject" value="HoFs">
+                            <label for="HoFs" id="HoFs">HoFs</label>  
+                        </span>
+                        <span>
+                            <input type="checkbox" class="subject" value="Jest">
+                            <label for="Jest" id="Jest">Jest</label>  
+                        </span>
+                        <span>
+                            <input type="checkbox" class="subject" value="Promises">
+                            <label for="Promises" id="Promises">Promises</label>  
+                        </span>
+                        <span>
+                            <input type="checkbox" class="subject" value="React">
+                            <label for="React" id="React">React</label>  
+                        </span>
+                        <span>
+                            <input type="checkbox" class="subject" value="SQL">
+                            <label for="SQL" id="SQL">SQL</label>  
+                        </span>
+                        <span>
+                            <input type="checkbox" class="subject" value="Python">
+                            <label for="Python" id="React">Python</label>  
+                        </span>
+                    </div>
+                </section>
+            </section>
+        </form>
+    </main>
     <footer>
        <p>Direitos reservados à Trybewarts©</p> 
     </footer>
 </body>
+
 </html>

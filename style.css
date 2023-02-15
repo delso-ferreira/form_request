@@ -9,3 +9,48 @@ footer {
   color: lightgray;
   text-align: center;
 }
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.header img {
+  width: 50px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+main {
+  display: flex;
+}
+
+#secao-de-conteudos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#secao-familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: black;
+}
+
+#conteudos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#conteudos span {
+  width: 33%;
+}
+
