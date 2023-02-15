@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-#header {
+
+.header {
     display: flex;
     background-color: #32a791;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#header img {
+.header img {
     width: 50px;
 }
 
@@ -22,9 +25,10 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
+    outline: none;
 }
 
-#header button {
+button {
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -32,19 +36,55 @@
     color: #fff;
 }
 
-#evaluation-form{
+#evaluation-form {
     display: flex;
     flex-direction: column;
     width: 675px;
-    
+
 }
 
-main{
+#evaluation-form h1 {
     display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.formulario{
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    flex-wrap: wrap;
+}
+
+.formulario input, .formulario div {
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+.formulario input{
+    padding: 14px;
+}
+
+#house {
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 10px;
+} 
+
+main {
+    display: flex;
+    background-color: #d9dcdf;
 }
 
 footer {
-        background-color: rgb(19, 68, 59);
-        color: lightgray;
-        text-align: center;
-    }
+    background-color: rgb(19, 68, 59);
+    color: lightgray;
+    text-align: center;
+}

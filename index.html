@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header id="header">
-        <img src="images/trybewarts-header-logo.svg" alt="logo-trybe">
+    <header class="header">
+        <img src="images/trybewarts-header-logo.svg" alt="logo-trybe" class="trybewarts-header-logo">
         <h1 id="trybewarts-header-tittle">Trybewarts</h1>
         <form action="" method="get">
             <div class="forms">
@@ -26,10 +26,12 @@
     <main>
         <form action="" id="evaluation-form">
             <h1 id="tittle-formulario">Formulário de Avaliação</h1>
+            <div class="formulario">
             <input type="text" name="nome" id="input-name" placeholder="Nome" required>
             <input type="text" name="sobrenome" id="input-lastnome" placeholder="Sobrenome" required>
             <input type="text" name="email" id="input-email" placeholder="Email" required>
-            <label for="casa">Casa:
+            <div id="label-house">
+            <label for="casa" >Casa:
                 <select name="casa" id="house">
                     <option value="Gitnório" id="gitnoria-house">Gitnório</option>
                     <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
@@ -37,6 +39,8 @@
                     <option value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </label>
+        </div>
+        </div>
         </form>
     </main>
     <footer>
