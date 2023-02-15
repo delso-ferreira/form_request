@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    background-color: #32a791;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+#header img {
+    width: 50px;
+}
+
+
 #evaluation-form{
     display: flex;
     flex-direction: column;
@@ -9,3 +30,9 @@
 main{
     display: flex;
 }
+
+footer {
+        background-color: rgb(19, 68, 59);
+        color: lightgray;
+        text-align: center;
+    }
