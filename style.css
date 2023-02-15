@@ -1,15 +1,18 @@
-.header{
-    display: flex;
-    background-color:#32a791;
-    justify-content: center;
 * {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #32a791;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
-  background-color: rgb(19, 68, 59);
-  color:lightgray;
-  text-align: center;
-}
+        background-color: rgb(19, 68, 59);
+        color: lightgray;
+        text-align: center;
+    }
