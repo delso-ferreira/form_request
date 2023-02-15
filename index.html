@@ -22,6 +22,18 @@
     </header>
     <main>
         <form action="" id="evaluation-form">
+            <h1 id="tittle-formulario">Formulário de Avaliação</h1>
+            <input type="text" name="nome" id="input-name" placeholder="Nome" required>
+            <input type="text" name="sobrenome" id="input-lastnome" placeholder="Sobrenome" required>
+            <input type="text" name="email" id="input-email" placeholder="Email" required>
+            <label for="casa">Casa:
+                <select name="casa" id="house">
+                    <option value="Gitnório" id="gitnoria-house">Gitnório</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </label>
             <section id="secao-de-conteudos">
                 <section id="secao-familia">
                     <label for="" id="label-family">Qual sua família?</label>
@@ -68,10 +80,62 @@
                     </div>
                 </section>
             </section>
+    </div>
+                <form action="" id="evaluation-form">
+                  <label id="label-rate">Como você avalia a Trybewarts? 
+                   <input type="radio" name="rate" id="rate1" value="1"></input> 
+                   <label>
+                    1
+                    </label>
+                   <input type="radio" name="rate" id="rate2" value="2"></input>
+                   <label>
+                    2
+                  </label>
+                  <input type="radio" name="rate" id="rate3" value="3"></input>
+                  <label>
+                    3
+                  </label>
+                  <input type="radio" name="rate" id="rate4" value="4"></input>
+                  <label>
+                    4
+                  </label>
+                  <input type="radio" name="rate" id="rate5" value="5"></input>
+                  <label>
+                    5
+                  </label>
+                  <input type="radio" name="rate" id="rate6" value="6"></input>
+                  <label>
+                    6
+                  </label>
+                  <input type="radio" name="rate" id="rate7" value="7"></input>
+                  <label>
+                    7
+                  </label>
+                  <input type="radio" name="rate" id="rate8" value="8"></input>
+                  <label>
+                    8
+                  </label>
+                  <input type="radio" name="rate" id="rate9" value="9"></input>
+                  <label>
+                    9
+                  </label>
+                  <input type="radio" name="rate" id="rate10" value="10"></input>
+                  <label>
+                    10
+                  </label>          
+                </label> 
+                <label id="comment">Deixe seu comentário:</label>
+                <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
+                <div id="agree-check">
+                <label id="label-infos">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" name="agree" id="agreement">
+                </div>
+                <button type="submit" id="submit-btn">Enviar</button>                          
         </form>
+        <img src="/images/trybewarts-colored.svg" alt="logo Trybewarts" id="trybewarts-forms-logo">
     </main>
     <footer>
-       <p>Direitos reservados à Trybewarts©</p> 
+        <p>Direitos reservados à Trybewarts©</p>
     </footer>
 </body>
 

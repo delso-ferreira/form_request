@@ -1,7 +1,85 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    background-color: #32a791;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header img {
+    width: 50px;
+}
+
+.trybewarts-login {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#header button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(103, 67, 136);
+    color: #fff;
+}
+
+#evaluation-form{
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+    
+}
+
+main{
+    display: flex;
+}
+
+#label-rate{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#comment{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+textarea{
+    margin-left: 5px;
+}
+
+#rate1{
+    margin-left: 20px;
+}
+
+input[type="radio"]{
+  margin: 2px;
+}
+
+#agree-check {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#agreement {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -54,3 +132,6 @@ main {
   width: 33%;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+}
