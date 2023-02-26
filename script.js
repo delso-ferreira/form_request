@@ -1,8 +1,8 @@
 const inputLogin = () => {
-  const email = document.getElementsByClassName('trybewarts-login-input')[0].value;
-  const password = document.getElementsByClassName('trybewarts-login-input')[1].value;
-  if (email === 'tryber@teste.com' && password === '123456') {
-    alert('Olá, Tryber!');
+  const email = document.getElementsByClassName('login-input')[0].value;
+  const password = document.getElementsByClassName('login-input')[1].value;
+  if (email === 'escola_dev@teste.com' && password === '123456') {
+    alert('Olá, estudante!');
   } else {
     alert('Email ou senha inválidos.');
   }
@@ -19,8 +19,7 @@ const alteraContador = (event) => {
   const contador = document.getElementById('counter');
   const caracteres = event.target.value.length;
   contador.innerHTML = `${500 - caracteres}`;
-//   console.log(typeof(contador.innerHTML));
-//   console.log(event.target.value.length);
+
 };
 window.onload = () => {
   const button = document.querySelector('#button-login');

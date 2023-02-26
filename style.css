@@ -8,7 +8,7 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 10px;
   font-size: 20px;
@@ -21,12 +21,12 @@
   width: 50px;
 }
 
-.trybewarts-login {
+.form-login {
   display: flex;
   flex-flow: row wrap;
 }
 
-.trybewarts-login-input {
+.login-input {
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -61,20 +61,22 @@ button {
   border: none;
   outline: none;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .formulario input , .formulario div {
   width: 40%;
   border-radius: 10px;
   border: none;
-  margin: 5px;
+  margin: 18px;
 }
 
 .formulario input {
   padding: 14px;
 }
 
-#house {
+#year {
   width: 85%;
   height: 100%;
   border-radius: 10px;
@@ -87,7 +89,7 @@ button {
 main {
   display: flex;
   background-color: rgb(217, 220, 223);
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #label-rate {
@@ -116,6 +118,7 @@ main {
   display: flex;
   margin-top: 10px;
   margin-left: 5px;
+  justify-content: center;
 }
 
 #agreement {
@@ -130,7 +133,7 @@ main {
 
 #secao-de-conteudos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 15px;
 }
 
@@ -150,12 +153,23 @@ main {
   width: 33%;
 }
 
-#trybewarts-forms-logo {
-  height: 500px;
-}
-
 footer {
   background-color: rgb(19, 68, 59);
   color: lightgray;
   text-align: center;
+}
+
+#label-rate{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#counter{
+  margin-left: 80px;
+}
+
+#label-content{
+  display: flex;
+  justify-content: center;
 }

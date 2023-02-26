@@ -6,18 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Trybewarts</title>
+    <title>Form Request</title>
     <script src="script.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <img src="images/trybewarts-header-logo.svg" alt="logo-trybe" class="trybewarts-header-logo">
-        <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form action="" method="get" class="trybewarts-login">
+            <h1 id="header-title">Escola_Dev</h1>
+        <form action="" method="get" class="form-login">
             <div class="forms">
-                <input type="text" name="email" class="trybewarts-login-input" placeholder="Email" required>
-                <input type="password" name="password" class="trybewarts-login-input" placeholder="Senha" required>
+                <input type="text" name="email" class="login-input" placeholder="Email" required>
+                <input type="password" name="password" class="login-input" placeholder="Senha" required>
                 <button type="submit" id="button-login">Entrar</button>
             </div>
         </form>
@@ -30,12 +29,13 @@
                 <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome" required>
                 <input type="text" name="email" id="input-email" placeholder="Email" required>
                 <div id="label-house">
-                    <label for="casa">Casa:
-                        <select name="casa" id="house">
-                            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    <label for="casa">Ano:
+                        <select name="casa" id="year">
+                            <option value="first" id="first-year">Primeiro ano</option>
+                            <option value="second" id="second-year">Segundo ano</option>
+                            <option value="third" id="third-year">Terceiro ano</option>
+                            <option value="fourth" id="fourth-year">Quarto ano</option>
+                            <option value="fifth" id="fifth-year">Quinto ano</option>
                         </select>
                     </label>
                 </div>
@@ -43,53 +43,53 @@
             <hr>
             <section id="secao-de-conteudos">
                 <section id="secao-familia">
-                    <label for="" id="label-family">Qual sua família?</label>
+                    <label for="" id="label-family"><strong>Está em que módulo?</label></strong>
                     <span>
                         <input type="radio" name="family" value="Frontend">
-                        <label for="family" id="Frontend">Familia Frontend</label>
+                        <label for="family" id="first-mod">Primeiro módulo</label>
                     </span>
                     <span>
                         <input type="radio" name="family" value="Backend">
-                        <label for="family" id="Backend">Familia Backend</label>
+                        <label for="family" id="second-mod">Segundo módulo</label>
                     </span>
                     <span>
                         <input type="radio" name="family" value="FullStack">
-                        <label for="family" id="FullStack">Familia FullStack</label>
+                        <label for="family" id="third-mod">Terceiro módulo</label>
                     </span>
                 </section>
                 <section id="secao-conteudos">
-                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <label for="" id="label-content"><strong>Qual conteúdo você está com dificuldade?</label></strong>
                     <div id="conteudos">
                         <span>
-                            <input type="checkbox" class="subject" value="HoFs">
-                            <label for="HoFs" id="HoFs">HoFs</label>
+                            <input type="checkbox" class="subject" value="ing">
+                            <label for="ing" id="ing">Inglês</label>
                         </span>
                         <span>
-                            <input type="checkbox" class="subject" value="Jest">
-                            <label for="Jest" id="Jest">Jest</label>
+                            <input type="checkbox" class="subject" value="ptbr">
+                            <label for="ptbr" id="ptbr">Português</label>
                         </span>
                         <span>
-                            <input type="checkbox" class="subject" value="Promises">
-                            <label for="Promises" id="Promises">Promises</label>
+                            <input type="checkbox" class="subject" value="math">
+                            <label for="math" id="math">Matemática</label>
                         </span>
                         <span>
-                            <input type="checkbox" class="subject" value="React">
-                            <label for="React" id="React">React</label>
+                            <input type="checkbox" class="subject" value="hist">
+                            <label for="hist" id="hist">História</label>
                         </span>
                         <span>
-                            <input type="checkbox" class="subject" value="SQL">
-                            <label for="SQL" id="SQL">SQL</label>
+                            <input type="checkbox" class="subject" value="Artes">
+                            <label for="Artes" id="Artes">Artes</label>
                         </span>
                         <span>
-                            <input type="checkbox" class="subject" value="Python">
-                            <label for="Python" id="React">Python</label>
+                            <input type="checkbox" class="subject" value="geo">
+                            <label for="geo" id="geo">Geografia</label>
                         </span>
                     </div>
                 </section>
             </section>
             <hr>
             <form action="" id="evaluation-form">
-                <label id="label-rate">Como você avalia a Trybewarts?
+                <label id="label-rate"><strong>Como você avalia a nossa escola?</strong>
                     <input type="radio" name="rate" id="rate1" value="1"></input>
                     <label>
                         1
@@ -131,19 +131,19 @@
                         10
                     </label>
                 </label>
-                <label id="comment" class="textarea">Deixe seu comentário:</label>
+                <label id="comment" class="textarea"><strong>Deixe seu comentário:</label></strong>
                 <textarea name="" cols="30" rows="10" maxlength="500" id="textarea"></textarea>
                 <div id="agree-check">
-                    <label id="label-infos">Você concorda com o uso das informações acima?</label>
+                    <label id="label-infos"><strong>Você concorda com o uso das informações acima?</label></strong>
                     <input type="checkbox" name="agree" id="agreement">
                     <p id="counter">500</p>
                 </div>
                 <button type="submit" id="submit-btn">Enviar</button>
             </form>
-            <img src="/images/trybewarts-colored.svg" alt="logo Trybewarts" id="trybewarts-forms-logo">
+            
     </main>
     <footer>
-        <p>Direitos reservados à Trybewarts©</p>
+        <p>Direitos reservados à Escola_Dev</p>
     </footer>
 </body>
 
