@@ -4,4 +4,4 @@
 
 <em>Este é um repositório para usar as habilidades obtidas no decorrer da carreira de Desenvolvimento Web</em>
 
-Exemplo de formulário 
+Exemplo de formulário de avaliação de uma escola
