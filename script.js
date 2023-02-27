@@ -19,9 +19,8 @@ const alteraContador = (event) => {
   const contador = document.getElementById('counter');
   const caracteres = event.target.value.length;
   contador.innerHTML = `${500 - caracteres}`;
-//   console.log(typeof(contador.innerHTML));
-//   console.log(event.target.value.length);
 };
+
 window.onload = () => {
   const button = document.querySelector('#button-login');
   button.addEventListener('click', inputLogin);
