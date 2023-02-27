@@ -32,3 +32,5 @@ window.onload = () => {
   textarea[0].addEventListener('input', alteraContador);
   console.log(textarea[0].length);
 };
+
+
