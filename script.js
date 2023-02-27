@@ -30,5 +30,5 @@ window.onload = () => {
   checkbox.addEventListener('change', habilitarEnvio);
   const textarea = document.getElementsByTagName('textarea');
   textarea[0].addEventListener('input', alteraContador);
-  
+  console.log(textarea[0].length);
 };
